@@ -20,11 +20,7 @@ This project avoids high-level libraries like TensorFlow or PyTorch, focusing in
 
 ```
 ├── train.csv              # Training dataset (Kaggle MNIST)
-├── test.csv               # Test dataset (Kaggle MNIST)
-├── sample_submission.csv  # Kaggle submission format
-├── model.py               # NumPy neural network implementation
 ├── train_model.ipynb      # Jupyter notebook for training
-├── predict.py             # Script to generate submission.csv
 └── README.md              # Project documentation
 ```
 
@@ -50,18 +46,9 @@ pip install numpy pandas matplotlib
 Run the Jupyter notebook or script:
 
 ```bash
-python train_model.py
+python model.ipynb
 ```
 
-### 4. Generate predictions for Kaggle submission
-
-```bash
-python predict.py
-```
-
-This will create a `submission.csv` file in the required Kaggle format.
-
----
 
 ## 📊 Results
 
